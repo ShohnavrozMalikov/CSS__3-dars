@@ -1,0 +1,290 @@
+body{
+    background-color: #c8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 15px;
+}
+.navbar-item a{
+    color: #808080;
+    text-decoration: none;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+}
+img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.navbar-item:hover a{
+    color: #34c9cb;
+}
+.navbar-item:hover{
+    background-color: #f1f1f1;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    background-color: #34c9cb;
+    color: white;
+    border-bottom: 4px solid #248f91;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+.btn:active{
+    border-bottom-width: 2px;
+    margin-top: 2px;
+}
+.btn:focus{
+    border-bottom-width: 2px;
+    margin-top: 2px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 200px;
+}
+
+.sticky{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #248f91;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    line-height: 45px;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+.flex-item{
+    position: relative;
+    border: 1px solid red;
+    margin-right:80px;
+    z-index: -1;
+
+}
+.badge{
+    background-color: #248f91;
+    color: #ffffff;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    right: 18px;
+    top: 27px;
+}
+.abc{
+    background-color: grey;
+    color: white;
+    width: 25px;
+    height: 20px;
+}
+.navbar-item::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    /*vertical-align: middle;*/
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+   /* margin-left: 4px;*/
+    position: absolute;
+    top: 40%;
+    right: 2px;
+}
+.navbar-item{
+    position: relative;
+    top: 5px;
+    padding-right: 20px;
+}
+
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+
+}
+.navbar-item:hover .drop-menu {
+    display: block;
+
+}
+
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu {
+    display: block;
+}
+.wrap{
+    width: 1200px;
+    margin: 20px auto;
+}
+.main-menu{
+    margin-left: 250px;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+}
+.main-menu-item{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.main-menu-item a{
+    color: #808080;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.main-menu-item:hover a{
+    background-color: royalblue;
+    color: white;
+}
+.sub-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 140px;
+    display: none;
+}
+.sub-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 14px;
+    position: relative;
+}
+.sub-menu-item:hover{
+    background-color: rgba(65,105,229,0.5);
+    color: #ffffff;
+}
+.main-menu-item:hover > .sub-menu{
+    display: block;
+}
+.sub-menu-item > .sub-menu {
+    left: 100%;
+    top: 0;
+}
+.sub-menu-item:hover .sub-menu{
+    display: block;
+}
+.sub-menu-item{
+    background-image: url("/rasmlar/down-arrow.svg");
+    background-repeat: no-repeat;
+}
+
+
